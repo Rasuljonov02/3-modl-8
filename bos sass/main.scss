@@ -1,0 +1,5 @@
+@import"./mixins/funcsion.scss";
+
+body{
+  @include center;
+}

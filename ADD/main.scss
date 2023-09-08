@@ -1,0 +1,12 @@
+@use "./moduls/mixin.scss";
+
+body{
+  @include center-grid;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: gray;
+  
+}

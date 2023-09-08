@@ -1,0 +1,14 @@
+@mixin size($w, $h, $color, $bg) {
+	width: $w;
+	height: $h;
+	color: $color;
+	background-color: $bg;
+}
+
+@mixin hover($hover) {
+	background-color: $hover;
+}
+@mixin center{
+	display: grid;
+	place-items: center;
+}
